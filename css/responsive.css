@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1200px) {
+    .main-container {
+        padding-bottom: 180px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .main-container {
+        padding-bottom: 250px;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .header-bottom-list {
+        display: none;
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+    .header-bottom-item-link {
+        width: 90%;
+        border-bottom: 1px solid #fff;
+        background-color: #35213a;
+    }
+    .show-menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .radio-inline {
+        margin-left: 0px;
+    }
+}
